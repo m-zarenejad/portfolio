@@ -64,9 +64,9 @@ function Navbar({sendDataToParent}) {
           </ul>
           
           <ul className={`hidden justify-around items-center mt-28 max-md:flex`}>
-            <li><a href="https://github.com/talhashah-dev" className="text-4xl" target="_blank" rel="noreferrer"><FaGithub /></a></li>
-            <li><a href="https://www.linkedin.com/in/talhashah-dev/" className="text-4xl" target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
-            <li><a href="https://stackoverflow.com/users/23691689/talha-shah" className="text-4xl" target="_blank" rel="noreferrer"><FaStackOverflow /></a></li>
+            <li><a href="https://github.com/mrzarenejad" className="text-4xl" target="_blank" rel="noreferrer"><FaGithub /></a></li>
+            <li><a href="https://www.linkedin.com/in/mohammadreza-zarenejad-2762bb175" className="text-4xl" target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
+            {/* <li><a href="https://stackoverflow.com/users/23691689/talha-shah" className="text-4xl" target="_blank" rel="noreferrer"><FaStackOverflow /></a></li> */}
           </ul>
       </nav>  
         
