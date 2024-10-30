@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ff02c98d.css",
-    "main.js": "/portfolio/static/js/main.4bc04adc.js",
+    "main.js": "/portfolio/static/js/main.ac5f8a8a.js",
     "static/media/coding.gif": "/portfolio/static/media/coding.18bcba89d4290c3f7580.gif",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.b7716b7bfc60a9bc8291.png",
     "static/media/js-projects.png": "/portfolio/static/media/js-projects.8a01c3cbe8b433529d55.png",
@@ -11,24 +11,39 @@
     "static/media/js-dsa-certificate.png": "/portfolio/static/media/js-dsa-certificate.ed1487e9c1f5a2205bb8.png",
     "static/media/Agustina-Signature.otf": "/portfolio/static/media/Agustina-Signature.320d237b3c9e9e794388.otf",
     "static/media/design-certificate.png": "/portfolio/static/media/design-certificate.99795c7d256676fac1d7.png",
+    "static/media/microsoft-sql-server-logo.svg": "/portfolio/static/media/microsoft-sql-server-logo.7e3c2025a2f083448bd8b4aa32b126ea.svg",
+    "static/media/microchip-logo.svg": "/portfolio/static/media/microchip-logo.2673c68723fddf772e83e95d847e8b29.svg",
     "static/media/linux-logo.svg": "/portfolio/static/media/linux-logo.bc2d79b693e6c2c76990f7fde5f3f0b6.svg",
+    "static/media/anaconda-logo.svg": "/portfolio/static/media/anaconda-logo.e0d245be1540eae21f2971369dcf502e.svg",
+    "static/media/avr-logo.svg": "/portfolio/static/media/avr-logo.80b82aebee7d39b43ca2b0d05937feb8.svg",
+    "static/media/asp-svgrepo-com.svg": "/portfolio/static/media/asp-svgrepo-com.9926f4e0a23d4b0c600cfdc061f48b37.svg",
     "static/media/bootstrap-logo.svg": "/portfolio/static/media/bootstrap-logo.5e4ecd7f4aaf4502477e2893ac98d496.svg",
+    "static/media/labview-logo.svg": "/portfolio/static/media/labview-logo.b3bc4757b85e1a0a0dbd50d249aad6bd.svg",
     "static/media/reactjs-logo.svg": "/portfolio/static/media/reactjs-logo.147416d211127eb9b77e0056e3116568.svg",
     "static/media/vs-code-logo.svg": "/portfolio/static/media/vs-code-logo.3d8fea0ed9043ed9bf421bbdb507a21e.svg",
     "static/media/python-logo.svg": "/portfolio/static/media/python-logo.7658fc5b493f0fa4979b28893c05b15b.svg",
+    "static/media/hardware-logo.svg": "/portfolio/static/media/hardware-logo.4b56ef5829a672a907499144456bdda8.svg",
+    "static/media/matlab-logo.svg": "/portfolio/static/media/matlab-logo.44de306ca4279f7043d62f0389b2a161.svg",
+    "static/media/altiumdesigner-logo.svg": "/portfolio/static/media/altiumdesigner-logo.3ee50558b50ce70926306f216ccbddf2.svg",
+    "static/media/tensorflow-logo.svg": "/portfolio/static/media/tensorflow-logo.b675fae9e6dd5e9a9cb817ba5088dc4c.svg",
+    "static/media/csharp-logo.svg": "/portfolio/static/media/csharp-logo.040a443e3be3e2ab322fb029ff9dc32a.svg",
     "static/media/git-logo.svg": "/portfolio/static/media/git-logo.8ee81345da1c18b6cdb4bbe93b464810.svg",
     "static/media/firebase-logo.svg": "/portfolio/static/media/firebase-logo.de6e050e44cd949580ce5ed02e7984a2.svg",
+    "static/media/sql-svgrepo-com.svg": "/portfolio/static/media/sql-svgrepo-com.9455f2f2bd26c88b5bb39d584a085d3d.svg",
+    "static/media/pytorch-logo.svg": "/portfolio/static/media/pytorch-logo.48338b80b52d44a4930cc5717aef8fe1.svg",
     "static/media/javascript-logo.svg": "/portfolio/static/media/javascript-logo.913dffcdf18de181e0cdf106de76f721.svg",
+    "static/media/docker-svgrepo-com.svg": "/portfolio/static/media/docker-svgrepo-com.402471a8309d58457b2412d97000f7cb.svg",
     "static/media/github-logo.svg": "/portfolio/static/media/github-logo.0efd8f5d610235da29aaaaba2b62c22c.svg",
+    "static/media/c-logo.svg": "/portfolio/static/media/c-logo.fc9a59303a924a9d57498af3b468e29b.svg",
     "index.html": "/portfolio/index.html",
     "static/media/tailwind-logo.svg": "/portfolio/static/media/tailwind-logo.03fdecbfd26561a058e76b84d95184a7.svg",
     "static/media/css-3-logo.svg": "/portfolio/static/media/css-3-logo.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html-5-logo.svg": "/portfolio/static/media/html-5-logo.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.ff02c98d.css.map": "/portfolio/static/css/main.ff02c98d.css.map",
-    "main.4bc04adc.js.map": "/portfolio/static/js/main.4bc04adc.js.map"
+    "main.ac5f8a8a.js.map": "/portfolio/static/js/main.ac5f8a8a.js.map"
   },
   "entrypoints": [
     "static/css/main.ff02c98d.css",
-    "static/js/main.4bc04adc.js"
+    "static/js/main.ac5f8a8a.js"
   ]
 }
