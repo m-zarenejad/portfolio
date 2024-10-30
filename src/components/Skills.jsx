@@ -11,7 +11,22 @@ import {
   Firebase_Logo,
   Linux_Logo,
   VSCode_Logo,
-  Tailwind_Logo
+  Tailwind_Logo,
+  c_logo,
+  csharp_logo,
+  matlab_logo,
+  labview_logo,
+  sql_logo,
+  pytorch_logo,
+  tensorflow_logo,
+  asp_logo,
+  docker_logo,
+  microsoft_sql_server_logo,
+  anaconda_logo,
+  microchip_logo,
+  hardware_logo,
+  avr_logo,
+  altiumdesigner_logo
 } from "../assets/images/index";
 
 function Skills() {
@@ -22,20 +37,29 @@ function Skills() {
 
   const cards = [
     {
-      title: "Languages",
+      title: "Programming Languages",
       items: [
-        { src: JavaScript_Logo, alt: "JavaScript" },
         { src: Python_Logo, alt: "Python" },
-        { src: HTML_Logo, alt: "HTML5" },
-        { src: CSS_Logo, alt: "CSS3" },
+        { src: c_logo, alt: "C" },
+        { src: csharp_logo, alt: "C#" },
+        { src: matlab_logo, alt: "MATLAB" },
+        { src: labview_logo, alt: "LABVIEW" },
+        { src: sql_logo, alt: "SQL" },
+        { src: JavaScript_Logo, alt: "JavaScript" },
+        // { src: HTML_Logo, alt: "HTML5" },
+        // { src: CSS_Logo, alt: "CSS3" },
       ],
     },
     {
       title: "Library and Frameworks",
       items: [
         { src: React_Logo, alt: "React" },
-        { src: Bootstrap_Logo, alt: "Bootstrap" },
-        { src: Tailwind_Logo, alt: "Tailwind" },
+        { src: pytorch_logo, alt: "Pytorch" },
+        { src: tensorflow_logo, alt: "Tensorflow" },
+        { src: asp_logo, alt: "ASP.NET" },
+        { src: docker_logo, alt: "Docker" },
+        // { src: Bootstrap_Logo, alt: "Bootstrap" },
+        // { src: Tailwind_Logo, alt: "Tailwind" },
       ],
     },
     {
@@ -46,11 +70,25 @@ function Skills() {
       ],
     },
     {
-      title: "Other tools & Services",
+      title: "Programming Software",
       items: [
-        { src: Firebase_Logo, alt: "Firebase" },
-        { src: Linux_Logo, alt: "Linux" },
         { src: VSCode_Logo, alt: "Visual Studio Code" },
+        { src: microsoft_sql_server_logo, alt: "SQL Server Management" },
+        { src: anaconda_logo, alt: "Anaconda" },
+      ],
+    },
+    {
+      title: "Embedded Software",
+      items: [
+        { src: hardware_logo, alt: "MPLAB-CodeVision" },
+        { src: altiumdesigner_logo, alt: "Altium Designer" },
+      ],
+    },
+    {
+      title: "Micro Controller",
+      items: [
+        { src: avr_logo, alt: "AVR" },
+        { src: microchip_logo, alt: "DsPIC" },
       ],
     },
   ];
