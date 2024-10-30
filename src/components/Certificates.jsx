@@ -1,20 +1,48 @@
 import React from "react";
-import { Design_Certificate, JS_Certificate } from "../assets/images";
+import { icc2020,icc2019,icc2019_clip,signal,fpga,english_pouya } from "../assets/images";
 
 const Certificates = () => {
   const certificates = [
     {
-      title: "Responsive Web Design",
-      description: "This certification covers HTML and CSS for webpage development, starting with a basic cat photo app and advancing to responsive design techniques like Flexbox and CSS Grid.",
-      image: Design_Certificate,
-      imageAlt: "Responsive Web Design Certificates"
+      title: "IRAN CanSat Competition 2020",
+      description: "2nd Place as SUTechSAT Team in the 8th the national championship and the second international championship in Sensing and Communication class of Iran Can-SAT Competition 2020.",
+      image: icc2020,
+      imageAlt: "IRAN CanSat Competition 2020"
     },
     {
-      title: "JavaScript Algorithms and Data Stracture",
+      title: "IRAN CanSat Competition 2019",
       description: 
-      "This certification teaches JavaScript basics variables, arrays, objects, functions, DOM and advanced topics OOP, Functional Programming, algorithms, local storage, API usage.",
-      image: JS_Certificate,
-      imageAlt: "Lagacy JavaScript Certificate"
+      "3rd Place as SUTechSAT Team in the 7th the national championship and the first international championship in Sensing and Communication class of Iran Can-SAT Competition 2019.",
+      image: icc2019,
+      imageAlt: "IRAN CanSat Competition 2019"
+    },
+    {
+      title: "IRAN CanSat Competition 2019 - Best Clip award",
+      description: 
+      "Best Clip award as SUTechSAT Team in the 7th the national championship and the first international championship in Sensing and Communication class of Iran Can-SAT Competition 2019.",
+      image: icc2019_clip,
+      imageAlt: "IRAN CanSat Competition 2019"
+    },
+    {
+      title: "Junior Proficiency in English 2016 ",
+      description: 
+      "English language Certification by Puya Marefat language institute.",
+      image: english_pouya,
+      imageAlt: "Junior Proficiency in English"
+    },
+    {
+      title: "Signal Processing using Matlab",
+      description: 
+      "This certification covers Signal Processing algorithms with MATLAB in Summer School Workshop held by Shiraz University of Technology.",
+      image: signal,
+      imageAlt: "Signal Processing using Matlab"
+    },
+    {
+      title: "FPGA using VHDL",
+      description: 
+      "This certification covers Implementing Electronic Circuits with FPGA Spartan 6 in Summer School Workshop held by Shiraz University of Technology..",
+      image: fpga,
+      imageAlt: "FPGA using VHDL"
     }
   ]
   

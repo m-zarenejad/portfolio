@@ -39,8 +39,12 @@ import plate_detection from "./car.png";
 import brain from "./brain.png";
 import cansat from "./cansat.png";
 // Certificates
-import Design_Certificate from "./design-certificate.png";
-import JS_Certificate from "./js-dsa-certificate.png";
+import icc2020 from "./ICC2020.jpg";
+import icc2019 from "./ICC2019.jpg";
+import icc2019_clip from "./ICC2019-clip.jpg";
+import signal from "./Signal processing.jpg";
+import fpga from "./FPGA.jpg";
+import english_pouya from "./english-pouya.jpg";
 
 export {
   c_logo,
@@ -75,11 +79,15 @@ export {
   CRUD_App,
   Js_Projects,
   Portfolio,
-  Design_Certificate,
-  JS_Certificate,
   spectrum,
   thermovisor,
   plate_detection,
   brain,
-  cansat
+  cansat,
+  icc2020,
+  icc2019,
+  icc2019_clip,
+  signal,
+  fpga,
+  english_pouya
 };
