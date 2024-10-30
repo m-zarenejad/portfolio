@@ -6,6 +6,7 @@ import Skills from "./Skills.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Certificates from "./Certificates.jsx";
+import Publication from "./Publication.jsx";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Projects,
   Contact,
   Certificates,
+  Publication
 };

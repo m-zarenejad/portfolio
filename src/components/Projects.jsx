@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { Blog_App, Weather_App, CRUD_App, Js_Projects, Portfolio } from "../assets/images/index.js"
+import { thermovisor,plate_detection,brain,cansat } from "../assets/images/index.js"
 
 function Projects() {
   const [visible,setVisible] = useState(0);
@@ -8,74 +8,73 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      image: Blog_App,
-      imageAlt: "Blog App",
-      name: "Blog App",
-      description: "Write your thoughts and publish them online on a secure and easy-to-use platform.",
+      image: thermovisor,
+      imageAlt: "Positional and Environmental System Dashboard",
+      name: "Positional-and-Environmental-System-Dashboard",
+      description: "The site offers data visualization, live monitoring, and alerting features, making it ideal for managing and understanding data trends over time..",
       links: {
-        gitHub: "https://github.com/talhashah-dev/blogging-app",
-        hosted: "https://talhashah-dev.github.io/blogging-app/"
+        gitHub: "https://github.com/mrzarenejad/Positional-and-Environmental-System-Dashboard",
+       
       },
       tags: [
-        "html", "css", "javascript", "firebase"
+        "html", "C", "Altium Designer", "Embedded System","SQL","ASP.NET","JavaScript"
+      ]
+    },
+    {
+      id: 2,
+      image: plate_detection,
+      imageAlt: "Iranian Car Plate Recognition",
+      name: "Iranian Car Plate Recognition",
+      description: "Ianian Car Plate Number Detection Based on YOLO-5.",
+      links: {
+        gitHub: "https://github.com/mrzarenejad/Deep-Learning-IUST/tree/main/Project",
+       
+      },
+      tags: [
+        "Python", "Pytorch", "Deep Learning"
       ]
     },
     // {
-    //   id: 2,
-    //   image: Js_Projects,
-    //   imageAlt: "JavaScript Projects",
-    //   name: "JavaScript Projects",
-    //   description: "Showcasing all JavaScript projects that I have built.",
+    //   id: 3,
+    //   image: Portfolio,
+    //   imageAlt: "Portfolio",
+    //   name: "Portfolio",
+    //   description: "Personal Portfolio built with React.js & Tailwind CSS",
     //   links: {
-    //     gitHub: "https://github.com/talhashah-dev/js-projects",
-    //     hosted: "https://talhashah-dev.github.io/js-projects/"
+    //     gitHub: "https://github.com/talhashah-dev/portfolio",
+    //     hosted: "https://talhashah.vercel.app/"
     //   },
     //   tags: [
-    //     "html", "css", "javascript"
+    //     "react", "tailwind", "javascript"
     //   ]
     // },
     {
       id: 3,
-      image: Portfolio,
-      imageAlt: "Portfolio",
-      name: "Portfolio",
-      description: "Personal Portfolio built with React.js & Tailwind CSS",
+      image: cansat,
+      imageAlt: "CanSat Competition",
+      name: "CanSat Competition",
+      description: "Design and Implement real time data monitoring System for CANSAT Competition ",
       links: {
-        gitHub: "https://github.com/talhashah-dev/portfolio",
-        hosted: "https://talhashah.vercel.app/"
+        gitHub: "https://github.com/mrzarenejad/Data-Receiver-LABVIEW",
       },
       tags: [
-        "react", "tailwind", "javascript"
+        "LABVIEW", "HardWare Design", "Real Time"
       ]
     },
     {
       id: 4,
-      image: Weather_App,
-      imageAlt: "React Weather App",
-      name: "Weather App",
-      description: "A Weather App built with React.js and OpenWeatherMap API",
+      image: brain,
+      imageAlt: "Brain Segmentation",
+      name: "Brain Segmentation",
+      description: "segmenting MRI brain images using the Markov Random Field (MRF) method in MATLAB",
       links: {
-        gitHub: "https://github.com/talhashah-dev/weather-app-react",
-        hosted: "https://weather-app-react-st.netlify.app/"
+        gitHub: "https://github.com/mrzarenejad/Segmentation-of-MRI-brain-images",
       },
       tags: [
-        "react", "css", "api"
+        "MATLAB", "Segmentation"
       ]
     },
-    {
-      id: 5,
-      image: CRUD_App,
-      imageAlt: "CRUD App",
-      name: "CRUD App",
-      description: "A CRUD operation Web App built with React.js and Bootstrap for UI and Mockapi as the DB.",
-      links: {
-        gitHub: "https://github.com/talhashah-dev/react-crud-app",
-        hosted: "https://react-crud-app-gilt.vercel.app/"
-      },
-      tags: [
-        "react", "bootstrap", "api"
-      ]
-    },
+    
   ]
 
   useEffect(() => {
@@ -118,9 +117,9 @@ function Projects() {
                   <a href={cards.links.gitHub} className="font-bold text-xl mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110" target="_blank" title="Github Repo" rel="noreferrer">
                     <FaGithub /> 
                   </a>
-                  <a href={cards.links.hosted} className="font-bold text-base mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110" target="_blank" title="Live Preview" rel="noreferrer">
+                  {/* <a href={cards.links.hosted} className="font-bold text-base mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110" target="_blank" title="Live Preview" rel="noreferrer">
                     <FaExternalLinkAlt /> 
-                  </a>
+                  </a> */}
                 </div>
                   <p className="text-gray-200 max-md:text-gray-600 text-base">
                     {cards.description}

@@ -31,6 +31,13 @@ import sql_logo from "./sql-svgrepo-com.svg";
 import tensorflow_logo from "./tensorflow-logo.svg";
 import docker_logo from "./docker-svgrepo-com.svg";
 
+// Publication
+import spectrum from "./spectrum1.jpg";
+// Projects
+import thermovisor from "./thermovisor.png";
+import plate_detection from "./car.png";
+import brain from "./brain.png";
+import cansat from "./cansat.png";
 // Certificates
 import Design_Certificate from "./design-certificate.png";
 import JS_Certificate from "./js-dsa-certificate.png";
@@ -69,5 +76,10 @@ export {
   Js_Projects,
   Portfolio,
   Design_Certificate,
-  JS_Certificate
+  JS_Certificate,
+  spectrum,
+  thermovisor,
+  plate_detection,
+  brain,
+  cansat
 };
