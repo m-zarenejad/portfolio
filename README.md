@@ -1,4 +1,4 @@
-![Screenshot](src/assets/images/portfolio.png)
+
 
 # Portfolio Website
 
