@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ff02c98d.css",
-    "main.js": "/portfolio/static/js/main.52af80e1.js",
+    "main.js": "/portfolio/static/js/main.7018829e.js",
+    "static/media/cansat.png": "/portfolio/static/media/cansat.cf934b1779674f0397e0.png",
+    "static/media/thermovisor.png": "/portfolio/static/media/thermovisor.3c1b57ed42859c48f147.png",
     "static/media/coding.gif": "/portfolio/static/media/coding.18bcba89d4290c3f7580.gif",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.b7716b7bfc60a9bc8291.png",
     "static/media/js-projects.png": "/portfolio/static/media/js-projects.8a01c3cbe8b433529d55.png",
@@ -11,6 +13,9 @@
     "static/media/js-dsa-certificate.png": "/portfolio/static/media/js-dsa-certificate.ed1487e9c1f5a2205bb8.png",
     "static/media/Agustina-Signature.otf": "/portfolio/static/media/Agustina-Signature.320d237b3c9e9e794388.otf",
     "static/media/design-certificate.png": "/portfolio/static/media/design-certificate.99795c7d256676fac1d7.png",
+    "static/media/spectrum1.jpg": "/portfolio/static/media/spectrum1.fac70ae70448b5e2ff8e.jpg",
+    "static/media/car.png": "/portfolio/static/media/car.f19c22385596c4767211.png",
+    "static/media/brain.png": "/portfolio/static/media/brain.e2aab40c0a256f8bf027.png",
     "static/media/microsoft-sql-server-logo.svg": "/portfolio/static/media/microsoft-sql-server-logo.7e3c2025a2f083448bd8b4aa32b126ea.svg",
     "static/media/microchip-logo.svg": "/portfolio/static/media/microchip-logo.2673c68723fddf772e83e95d847e8b29.svg",
     "static/media/linux-logo.svg": "/portfolio/static/media/linux-logo.bc2d79b693e6c2c76990f7fde5f3f0b6.svg",
@@ -40,10 +45,10 @@
     "static/media/css-3-logo.svg": "/portfolio/static/media/css-3-logo.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html-5-logo.svg": "/portfolio/static/media/html-5-logo.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.ff02c98d.css.map": "/portfolio/static/css/main.ff02c98d.css.map",
-    "main.52af80e1.js.map": "/portfolio/static/js/main.52af80e1.js.map"
+    "main.7018829e.js.map": "/portfolio/static/js/main.7018829e.js.map"
   },
   "entrypoints": [
     "static/css/main.ff02c98d.css",
-    "static/js/main.52af80e1.js"
+    "static/js/main.7018829e.js"
   ]
 }
