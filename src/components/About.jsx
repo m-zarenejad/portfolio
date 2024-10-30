@@ -12,8 +12,11 @@ function About() {
           I graduated in M.Sc. at the Iran University of Science and Technology in Sep. 2024. I hold a B.Sc. in Electrical Engineering from Shiraz University of Technology.
           I have contributed to industry collaborations and surpassed state-of-the-art benchmarks in my research.
           </p>
+          <div className="space-x-4 space-y-4 items-center " >
+          <a href="https://drive.google.com/file/d/11j-ypT5udjfGnt8I85flJ-Sth8FOLWux/view?usp=sharing" className="p-2 space-x-4 px-4 rounded-md text-base bg-white text-purple-500 hover:bg-purple-500 hover:text-white transition-all inline-block w-auto">Resume</a>
           <a href="#contact" className="p-2 px-4 rounded-md text-base bg-white text-purple-500 hover:bg-purple-500 hover:text-white transition-all inline-block w-auto">GET IN TOUCH</a>
-        </div>
+          </div>
+          </div>
         <img
           className="h-80 max-xl:h-64 rounded max-[426px]:h-auto max-[426px]:w-full max-[426px]:mb-5"
           src={coding_gif}
