@@ -13,8 +13,8 @@ function Publication() {
       name: "SPECTRUM",
       description: "Semantic Processing and Emotion-informed video-Captioning Through Retrieval and Understanding Modalities.",
       links: {
-        gitHub: "",
-        hosted: ""
+        gitHub: "https://github.com/mrzarenejad/SPECTRUM",
+        hosted: "https://arxiv.org/abs/2411.01975"
       },
       tags: [
         "Python", "Pytorch", "Tensorflow", "CNN","CLIP","GLOVE","Transformer"
