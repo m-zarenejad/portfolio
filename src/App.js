@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { Navbar, Loader, Footer,About, Skills, Projects, Contact, Certificates,Publication  } from "./components/index.js";
+import { Navbar, Loader, Footer,About, Skills, Projects, Contact, Certificates,Publications  } from "./components/index.js";
 import { GoArrowUp } from "react-icons/go";
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
             </button>
             <About />
             <Skills />
-            <Publication />
+            <Publications />
             <Projects />
             <Certificates />
             <Contact />

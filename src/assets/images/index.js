@@ -31,7 +31,7 @@ import sql_logo from "./sql-svgrepo-com.svg";
 import tensorflow_logo from "./tensorflow-logo.svg";
 import docker_logo from "./docker-svgrepo-com.svg";
 
-// Publication
+// Publications
 import spectrum from "./spectrum1.jpg";
 // Projects
 import thermovisor from "./thermovisor.png";

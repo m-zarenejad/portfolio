@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { spectrum } from "../assets/images/index.js"
 
-function Publication() {
+function Publications() {
   const [visible,setVisible] = useState(0);
   const [isLargeScreen, setIsLargeScreen] = useState(false);
   const publications = [
@@ -44,7 +44,7 @@ function Publication() {
   };
 
   return (
-    <div className="pb-5 h-auto my-20" id="Publication">
+    <div className="pb-5 h-auto my-20" id="Publications">
 
       <h1 className="text-6xl max-md:text-4xl font-bold mb-10">Publications</h1>
 
@@ -91,4 +91,4 @@ function Publication() {
   )
 }
 
-export default Publication;
+export default Publications;

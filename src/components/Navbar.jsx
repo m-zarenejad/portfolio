@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css"
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-
+import { SiGooglescholar } from "react-icons/si";
 
 function Navbar({sendDataToParent}) {
   // const [active, setActive] = useState(0);
@@ -45,6 +45,12 @@ function Navbar({sendDataToParent}) {
             </li>
 
             <li>
+              <a href="#Publications" className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`} onClick={() => handleLinkClick()}>
+                Publications
+              </a>
+            </li>
+
+            <li>
               <a href="#projects" className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`} onClick={() => handleLinkClick()}>
                 Projects
               </a>
@@ -65,6 +71,7 @@ function Navbar({sendDataToParent}) {
           
           <ul className={`hidden justify-around items-center mt-28 max-md:flex`}>
             <li><a href="https://github.com/mrzarenejad" className="text-4xl" target="_blank" rel="noreferrer"><FaGithub /></a></li>
+            <li><a href="https://scholar.google.com/citations?user=EAwDcFgAAAAJ&hl=en" className="text-4xl" target="_blank" rel="noreferrer"><SiGooglescholar /></a></li>
             <li><a href="https://www.linkedin.com/in/mohammadreza-zarenejad-2762bb175" className="text-4xl" target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
             {/* <li><a href="https://stackoverflow.com/users/23691689/talha-shah" className="text-4xl" target="_blank" rel="noreferrer"><FaStackOverflow /></a></li> */}
           </ul>

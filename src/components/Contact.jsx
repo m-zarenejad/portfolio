@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 function Contact(){
   return (
@@ -17,9 +18,9 @@ function Contact(){
           <a href="https://www.linkedin.com/in/mohammadreza-zarenejad-2762bb175" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
             <FaLinkedin />
           </a>
-          {/* <a href="https://stackoverflow.com/users/23691689/talha-shah" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
-            <FaStackOverflow />
-          </a> */}
+          <a href="https://scholar.google.com/citations?user=EAwDcFgAAAAJ&hl=en" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
+            <SiGooglescholar />
+          </a>
         </div>
       </div>
   )
